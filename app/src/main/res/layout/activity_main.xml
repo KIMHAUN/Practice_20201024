@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
-    android:background="@drawable/seagull"
+
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -54,10 +54,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:visibility="invisible"
         android:text="닉네임"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:singleLine="true"
         android:hint="사용할 닉네임을 입력"/>
 
@@ -92,6 +94,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개 안함" />
     </RadioGroup>
 
