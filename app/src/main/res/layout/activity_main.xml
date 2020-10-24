@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="324dp"
+        android:layout_height="195dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seagull" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
