@@ -25,7 +25,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="8자리 이상으로 해주세요.0"
+        android:hint="8자리 이상으로 해주세요.000"
         android:inputType="textPassword"
         />
 
