@@ -5,13 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="324dp"
-        android:layout_height="195dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/seagull" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/seagull" />
+
+    </LinearLayout>
+
 
     <TextView
         android:layout_width="wrap_content"
